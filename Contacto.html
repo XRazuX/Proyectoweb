@@ -13,9 +13,44 @@
             <a href="proyectoweb.prub.html">Inicio</a>
             <a href="Galeria.html">Galeria</a>
             <a href="Servicios.html">Servicios</a>
-            <a href="Productos.html">Productos</a>
+            <a href="Productos.html">Juegos</a>
             <a href="Contacto.html">Contacto</a>
         </nav>
         <div class="img-cabecera"></div>
+        <div class="contacto">
+            <h1>Contacto</h1>
+            <div class="linea"></div>
+            <form action="contact.php" method="post" class="formulario">
+                <input type="text" placeholder="Tu Nombre" name="nombre">
+                <label for="nombre1">Tu Nombre:</label>
+                <input id="nombre1" type="text" placeholder="Tu correo" name="Correo electronico">
+                <input type="tel" placeholder="Teléfono" name="telefono">
+                <textarea placeholder="Tu mensaje" rows="10" cols="30" name="mensaje"></textarea>
+                <select id="pais" name="paise">
+                    <option value="Español">Español</option>
+                    <option value="Italia">Italiano</option>
+                    <option value="Rusia">Ruso</option>
+                    <option value="Inglaterra">Ingles</option>
+                    <option value="Japon">Japones</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <fieldset>
+                    <legend>Fecha nacimiento y Cumpleaños</legend>
+                    <label for="fname">Fecha de nacimiento </label>
+                    <input type="text" id="fname" name="fname" value="Fecha">
+                    <label for="lname">Edad</label>
+                   <input type="text" id="lname" name="lname" value="Años"><br><br>
+                    <input type="submit" value="Enviar">
+                 </fieldset>
+                 
+                <input type="submit" value="Enviar">
+            </form>
+         </div>
+         <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+          </map>
+          <div class="img-fondo"> 
 </body>
 </html>
