@@ -49,3 +49,15 @@ height: auto;
     background-attachment: fixed;
     height: 60rem;
  }
+
+/** Lista desordenada**/
+h2 > span{
+    color: darkmagenta;
+}
+
+h2{
+    padding: 2rem;
+}
+ul {
+    margin-left: 15%;
+}

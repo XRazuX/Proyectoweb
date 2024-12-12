@@ -56,3 +56,16 @@ main{
     margin: 2rem auto 2rem auto;
     width: 80%;
  }
+
+ @media (max-width:85rem) {
+    img {
+        height: 33rem; 
+        width: 33%;
+    }  
+ }
+ @media (max-width:150rem) {
+    img {
+        height: auto;
+        width: auto;
+    }
+ }
